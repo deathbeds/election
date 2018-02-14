@@ -1,0 +1,12 @@
+# Mostly jupyter stuff
+name: election
+channels:
+  - conda-forge
+dependencies:
+  - ipyleaflet
+  - plotly
+  - bqplot
+  - pip:
+    - https://github.com/deathbeds/XXX/archive/e77fd1597a61230c45a244c871d4ef183d90a0a9.tar.gz
+    - pdvega
+    - rise

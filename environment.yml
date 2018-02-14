@@ -1,0 +1,29 @@
+name: election
+channels:
+  - conda-forge
+dependencies:
+  - beautifulsoup4
+  - bokeh
+  - cartopy
+  - chardet
+  - dask
+  - distributed
+  - geopandas
+  - jupyterlab
+  - lxml
+  - matplotlib
+  - mpmath
+  - nodejs
+  - pandas
+  - pyquery
+  - python >=3.6,<3.7
+  - requests
+  - requests-cache
+  - seaborn
+  - toolz
+  - tqdm
+  - urllib3
+  - pip:
+    - https://github.com/deathbeds/poser/archive/9abff312735b7bcc9370c920833e13f418973046.tar.gz
+    - https://github.com/deathbeds/aye/archive/89e29c2f9ce226b05a9d9918aa1e78c8b2496f10.tar.gz
+    - https://github.com/sympy/sympy/archive/master.tar.gz

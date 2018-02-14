@@ -1,0 +1,15 @@
+#!/bin/bash
+set -ex
+
+if [ z$BINDER_PORT == 'z' ]; then
+  conda env update --file environment-post.yml
+else
+  conda env update --file environment-post.yml -n root
+fi
+
+jupyter labextension install \
+    @jupyter-widgets/jupyterlab-manager \
+    @jupyterlab/geojson-extension \
+    bqplot \
+    jupyter-leaflet \
+  && jupyter labextension list
