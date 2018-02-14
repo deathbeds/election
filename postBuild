@@ -1,7 +1,7 @@
 #!/bin/bash
 set -ex
 
-if [ z$BINDER_PORT == 'z' ]; then
+if [ z$NB_UID == 'z' ]; then
   conda env update --file environment-post.yml
 else
   conda env update --file environment-post.yml -n root
