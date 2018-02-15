@@ -8,7 +8,9 @@ dependencies:
   - chardet
   - dask
   - distributed
+  - fuzzywuzzy
   - geopandas
+  - jellyfish
   - jupyterlab
   - lxml
   - matplotlib
@@ -17,6 +19,7 @@ dependencies:
   - pandas
   - pyquery
   - python >=3.6,<3.7
+  - python-levenshtein
   - requests
   - requests-cache
   - seaborn
